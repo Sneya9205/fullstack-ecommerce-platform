@@ -1,6 +1,6 @@
 *.rar
 *.zip
 razorpay-php-testapp-master/
-.docx
+*.docx
 rzp.csv
-.txt
+*.txt
