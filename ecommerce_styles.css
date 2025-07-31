@@ -1,0 +1,117 @@
+<<<<<<< HEAD
+.container{
+font-family: Helvetica, sans-serif;
+display:grid;
+grid-template-columns:200px 1fr;
+grid-template-areas:
+'header header '
+'sidebar itemArea '
+'footer footer ' ;
+padding:10px;
+background-color:lightgray;
+}
+.container>div{
+padding:16px;
+}
+.header{background-color:navy; color:white;}
+.footer{background-color:navy; color:lightgray; text-align:center;}
+.menu{
+grid-area:sidebar;
+background-color:gray;
+color:white;
+}
+.items{ grid-area: itemArea;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+gap: 20px;
+padding: 10px;
+background-color: white; 
+}
+.item-card {
+      width:100%;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      padding:20px;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+.item-card img{
+height:200px;
+width:200px;
+display:block;
+margin:0 auto;
+}
+.header a:link,
+.header a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align:right;font-size:20px
+}
+
+.header a:hover,
+.header a:active {
+  color: whitesmoke;
+  text-decoration: underline;
+  text-align:right;font-size:20px
+}
+
+=======
+.container{
+font-family: Helvetica, sans-serif;
+display:grid;
+grid-template-columns:200px 1fr;
+grid-template-areas:
+'header header '
+'sidebar itemArea '
+'footer footer ' ;
+padding:10px;
+background-color:lightgray;
+}
+.container>div{
+padding:16px;
+}
+.header{background-color:navy; color:white;}
+.footer{background-color:navy; color:lightgray; text-align:center;}
+.menu{
+grid-area:sidebar;
+background-color:gray;
+color:white;
+}
+.items{ grid-area: itemArea;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+gap: 20px;
+padding: 10px;
+background-color: white; 
+}
+.item-card {
+      width:100%;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      padding:20px;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+.item-card img{
+height:200px;
+width:200px;
+display:block;
+margin:0 auto;
+}
+.header a:link,
+.header a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align:right;font-size:20px
+}
+
+.header a:hover,
+.header a:active {
+  color: whitesmoke;
+  text-decoration: underline;
+  text-align:right;font-size:20px
+}
+
+>>>>>>> e8e47e1 (Razorpay folder)

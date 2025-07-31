@@ -1,0 +1,82 @@
+<<<<<<< HEAD
+*{
+    margin:0;
+    padding:10px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ' header header header header'
+    'menu content content content'
+    'menu footer footer footer';
+}
+.container>div.item1{
+    grid-area:"header";
+    background-color:#151B54;
+    color:white;
+}
+.container>div.item2{
+    grid-area:"menu";
+    background-color: lightgray;
+}
+.container>div.item3{
+    grid-area:"content";
+    
+}
+
+.container>div.item4{
+    grid-area:"footer";
+    background-color:#151B54;
+    color: gray;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(autofill,minmax(180px,1fr));
+}
+.product-card{
+    text-align:center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+=======
+*{
+    margin:0;
+    padding:10px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ' header header header header'
+    'menu content content content'
+    'menu footer footer footer';
+}
+.container>div.item1{
+    grid-area:"header";
+    background-color:#151B54;
+    color:white;
+}
+.container>div.item2{
+    grid-area:"menu";
+    background-color: lightgray;
+}
+.container>div.item3{
+    grid-area:"content";
+    
+}
+
+.container>div.item4{
+    grid-area:"footer";
+    background-color:#151B54;
+    color: gray;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(autofill,minmax(180px,1fr));
+}
+.product-card{
+    text-align:center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+>>>>>>> e8e47e1 (Razorpay folder)
+}

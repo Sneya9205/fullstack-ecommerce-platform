@@ -1,0 +1,6 @@
+*.rar
+*.zip
+razorpay-php-testapp-master/
+.docx
+rzp.csv
+.txt
