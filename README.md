@@ -73,6 +73,8 @@ cd fullstack-ecommerce
 # Import the provided .sql file into MySQL
 # Access the project through localhost in your browser
 
+---
+
 ## Motivation
 I developed this eCommerce platform as a self-driven initiative to bridge the gap between theoretical knowledge and practical application in fullstack development. My goal was to work end-to-end on a real-world style project that required:
 
@@ -83,7 +85,7 @@ I developed this eCommerce platform as a self-driven initiative to bridge the ga
 - **Realistic System Features** – Handling tasks such as product management, category-based search, order tracking, and analytics, mimicking the challenges faced in production-grade applications.  
 
 This project allowed me to practice **full development lifecycle skills** — from planning database structures to implementing backend logic, building responsive interfaces, and deploying payment workflows — all of which are essential in real-world engineering roles.
-
+```
 ---
 
 ## Scope of Functionalities
