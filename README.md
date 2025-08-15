@@ -14,9 +14,8 @@ The project also focuses on **performance optimization** (via database indexing)
 3. [System Design & Architecture](#system-design--architecture)  
 4. [Launch](#launch)  
 5. [Motivation](#motivation)  
-6. [Scope of Functionalities](#scope-of-functionalities)   
-7. [Project Status](#project-status)  
-8. [Documentation & References](#documentation--references)  
+6. [Scope of Functionalities](#scope-of-functionalities)     
+7. [Documentation & References](#documentation--references)  
 
 ---
 
@@ -85,6 +84,8 @@ I developed this eCommerce platform as a self-driven initiative to bridge the ga
 
 This project allowed me to practice **full development lifecycle skills** — from planning database structures to implementing backend logic, building responsive interfaces, and deploying payment workflows — all of which are essential in real-world engineering roles.
 
+---
+
 ## Scope of Functionalities
 
 ### 1. Admin Dashboard
@@ -114,6 +115,8 @@ This project allowed me to practice **full development lifecycle skills** — fr
 
 ### 7. Order Status Tracking
 - Tracks payment and order completion status.
+
+---
 
 ## Documentation & References
 
